@@ -1,3 +1,4 @@
+//Delete
 use("personajes")
 db.anime.deleteOne({nombre:"Edward Elric"})
 db.anime.find({})

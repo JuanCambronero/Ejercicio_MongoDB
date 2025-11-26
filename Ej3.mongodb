@@ -1,4 +1,4 @@
-//Ejercicio 3
+//Find
 use('personajes')
 db.anime.find({})
 db.anime.findOne({})
