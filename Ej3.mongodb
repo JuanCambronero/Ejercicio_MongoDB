@@ -1,0 +1,10 @@
+//Ejercicio 3
+use('personajes')
+db.anime.find({})
+db.anime.findOne({})
+db.anime.find({anime:"Dragon Ball"})
+db.anime.find({nombre: "Eren Jaeger"})
+db.anime.find({},{_id:0,nombre:1,poder:1})
+db.anime.find({},{_id:0,nombre:1,anime:1})
+db.anime.find({},{es_humano:0})
+db.anime.find({anime:"Naruto"},{_id:0})

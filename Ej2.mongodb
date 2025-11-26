@@ -1,0 +1,18 @@
+//Ejercicio 2
+use('personajes')
+db.anime.insertMany([
+    {
+        _id : 2,
+        nombre : "Freezer",
+        anime : "Dragon Ball",
+        poder : 8000,
+        es_humano: false
+    },
+    {
+        _id : 3,
+        nombre : "Sasuke Uchiha",
+        anime : "Naruto",
+        poder: 6900,
+        es_humano : true
+    }
+])
